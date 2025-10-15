@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Task Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Smart Task Planner</h1>
+  <form id="goalForm">
+    <label for="goalInput">Enter your goal (e.g., "Launch a product in 2 weeks"):</label>
+    <input type="text" id="goalInput" name="goalInput" required>
+    <button type="submit">Generate Plan</button>
+  </form>
+  
+  <h2>Task Plan</h2>
+  <div id="planOutput"></div>  <!-- Where results will be displayed -->
+  
+  <script src="app.js"></script>
+</body>
+</html>
