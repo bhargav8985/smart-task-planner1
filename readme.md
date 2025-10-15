@@ -20,3 +20,4 @@ This project uses a Node.js backend with Express to process goals via an LLM (e.
 - **POST /api/generate-plan**: Send a JSON body like `{ "goal": "Your goal here" }` to get the task plan.
 
 
+# smart-task-planner1
