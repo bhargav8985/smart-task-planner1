@@ -6,7 +6,7 @@ A simple AI-powered tool to break down user goals into actionable tasks with tim
 This project uses a Node.js backend with Express to process goals via an LLM (e.g., GEMINI FLASH-2.0). It includes a basic frontend for user interaction.
 
 ## Setup
-1. Clone the repo: `git clone https://github.com/yourusername/smart-task-planner`
+1. Clone the repo: `git clone https://github.com/bhargav8985/smart-task-planner`
 2. Install dependencies: `npm install`
 3. Create a `.env` file with your GEMINI API key: `GEMINI_API_KEY=your_key_here`
 4. Start the server: `node server.js`
